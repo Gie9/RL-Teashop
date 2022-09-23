@@ -1,0 +1,118 @@
+h1 {
+  text-align: center;
+  font-size: 40px;
+  margin: 0px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 35px;
+}
+
+p {
+  text-align: center;
+
+}
+
+body {
+  background-color: rgb(228, 202, 168);
+  background-image: url(../Images/pexels-nikolay-osmachko-230477.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Roboto', sans-serif;
+  padding: 20px;
+}
+
+hr {
+  /* box-shadow: horizontal , offset , vertical offset , blur , spread , color */
+  box-shadow: 0 4px 17px 2px rgba(0, 0, 0, 0.75);
+  height: 0.5px;
+  margin-left: auto;
+  margin-right: auto;
+  /* webkit for more compatibility of browser */
+  -webkit-box-shadow: 0 4px 17px 2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0 4px 17px 2px rgba(0, 0, 0, 0.75);
+}
+
+.topHorizontalRule {
+  margin-top: 25px;
+}
+
+.bottomHorizontalRule {
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+.teaMenu {
+  width: 80%;
+  max-width: 500px;
+  /* background-color: rgb(228, 202, 168); */
+  background-color: rgba(228, 202, 168, 0.406);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+.teaItem p {
+  /* background-color: red; */
+  display: inline-block;
+  font-weight: 400;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-style: 18px;
+
+}
+
+.teaFlavor,
+.teaCollection {
+  /* background-color: red; */
+  text-align: left;
+  width: 75%;
+
+}
+
+.teaPrice,
+.collectionPrice {
+  /* background-color: blue; */
+  text-align: right;
+  width: 25%;
+}
+
+.established {
+  font-style: italic;
+}
+
+img{
+  width: 50px;
+  height: 50px;
+  margin: auto;
+  display: block;
+  margin-top: -25px;
+}
+
+/* Footer for the header section */
+
+footer{
+  font-size: 14px;
+}
+
+a{
+  color: black;
+}
+
+/* pseudo class  */
+a:link{
+  color: green;
+}
+/* pseudo class visited (pag na visit mo na yung link) */
+a:visited{
+  color: #fff;
+}
+/* pseudo class hover (pag tinapat mo cursor mo sa link) */
+a:hover{
+  color: lightgrey;
+}
+/* pseudo class active (pag cnlick mo na yung link) */
+a:active{
+  color: yellow;
+}
